@@ -1,0 +1,292 @@
+body {
+
+background-image: url(https://64.media.tumblr.com/39179261598eb91dc469159d02b71263/tumblr_op8cpqZTjy1rrftcdo1_500.png);
+margin: 0;
+}
+
+h1 {
+    padding: 30px 30px 30px;
+    border-radius: 100px 100px 100px 100px;
+    background-color: rgba(255, 123, 0, 0.651);
+    margin: 30px 70px 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 110px;
+    color: rgb(59, 59, 236);
+    text-shadow: -5px -5px 2px rgb(0, 0, 0);
+    
+  
+   
+}
+
+#background {
+    background-image: linear-gradient(to left, rgba(255, 166, 0, 0.445),rgba(128, 0, 128, 0.308));
+    
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+   
+    
+   
+    border-radius: 20px;
+    
+}
+
+ .flexitems {
+     height: 300px;
+     width: 300px;
+     border: thin solid grey;
+     border-radius: 20px;
+     margin: 20px;
+     transition-duration: 0.5s;
+}
+
+.flexitems:hover {
+    transform: scale(120%);
+}
+
+
+ .flexitemts {
+     
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    border: solid thin grey;
+    border-radius: 20px;
+    position: relative;
+    transition-duration: 0.5s;
+}
+.flexitemts:hover {
+    transform: scale(1.2);
+}
+.flexitemts #pollux {
+position: absolute;
+border-radius: 0px 0px 20px 20px;
+font-size: 27px;
+color: white;
+background-image:linear-gradient(to left, rgb(0, 0, 255), rgb(255, 0, 0));
+bottom: 0px;
+padding: 20px;
+width: 260px;
+height: 60px;
+text-align: center;
+
+}
+
+.flexitemts #pollux:hover {
+    background-image: none;
+    background-color: rgb(31, 40, 168);
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+    
+}
+h2 {
+
+   margin: 50px 120px 50px;
+    border-top: solid 5px  red;
+    border-bottom: solid 5px rgb(0, 156, 0);
+    border-left: solid 35px yellow;
+    border-right: solid 35px cyan;
+    border-radius: 100px 100px 100px 100px;
+    background-color: rgb(0, 38, 255);
+text-align: center;
+font-size: 70px;
+color: orange;
+text-shadow: 5px 0px 2px rgb(0, 0, 0);
+
+
+}
+
+#Rumple {
+    transition-duration: 1s;
+    
+    margin: 50px;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+#Rumple:hover {
+    transform: scale(1.5);
+}
+#Rumple #petitmessage {
+    width: 280px;
+    height: 50px;
+    font-size: 15px;
+    bottom: 0px;
+    position: absolute;
+
+}
+.texte {
+    height: 240px;
+    width: 240px;
+    margin: 50px;
+    padding: 15px;
+    background-color: purple;
+    border-radius: 20px;
+    border-radius: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(17, 51, 28);
+    text-shadow: 5px 5px 5px rgb(94, 94, 94);
+}
+
+.bordure {
+    width: 240px;
+    height: 240px;
+    padding: 30px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, rgb(255, 0, 0), rgb(255, 166, 0));
+    font-size: 20px;
+   
+}
+
+
+.bordurimg {
+    border-radius:20px;
+    
+   
+    height: 250px;
+    width: 300px;
+   
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 10px;
+
+}
+.flexbox2 {
+    background-color: rgb(247, 186, 167);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+
+}
+.flexbox3 {
+    background-image: linear-gradient(to bottom, rgba(0, 128, 0, 0.308), rgba(128, 0, 128, 0.308));
+    padding: 10px;
+    margin: 10%;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.flexitem {
+    position: relative;
+    border: thin solid black;
+    border-radius: 20px;
+    margin: 10px 20px 20px ;
+    transition-duration: 0.5s;
+    height: 250px;
+    width: 300px;
+    
+    
+    
+}
+.flexitem:hover {
+    transform: scale(1.1);
+}
+.general {
+
+    margin: 10%;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgba(255, 166, 0, 0.438), rgba(255, 192, 203, 0.438));
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ticonteneur {
+    text-align : center;
+    list-style-type: none;
+    color: #000000;
+    margin: 20px;  
+    padding: 30px;   
+}
+.conteneurpied {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgb(248, 219, 165);
+}
+.superconteneur {
+   
+    justify-content: center;
+
+
+}
+
+   
+
+    
+    #marius {
+        border-radius: 0px 0px 20px 20px;
+        background-color: rgb(106, 0, 138);
+        text-align:center;
+        font-size: 40px;
+        color: rgb(165, 165, 199);
+        position: relative;
+        bottom: 117px;
+        width: 306px;
+        right: -20px;
+       
+    }
+.flexitem .calibrage {
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: red;
+    font-size: 20px;
+    height: 50px;
+    width: 260px;
+   padding : 20px;
+    text-align: center;
+    transition-duration: 0.5s;
+
+}
+.flexitem .calibrage:hover {
+    background-color: rgb(87, 179, 35);
+    font-size: 25px;
+    color: white;
+   
+   
+}
+    figure {
+        border-radius: 0px 0px 20px 20px;
+        position: relative;
+        margin: 10px;
+    }
+        
+    figure #petitmessage {
+        border-radius: 0px 0px 20px 20px;
+        background-image: linear-gradient(to right, rgb(221, 129, 224), rgb(235, 166, 17));
+        position: absolute;
+        text-align: center;
+        left: 0px;
+        bottom: 3px;
+        width: 250px;
+        padding: 10px;
+        font-size: 18px;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: black;
+       
+    }
+
+    .pieditem {
+        font-size: 20px;
+        color: red;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 1px -3px 7px black; 
+    }
