@@ -1,0 +1,294 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 71px;
+    color: rgb(102, 111, 240);
+    text-shadow: 5px 5px 7px black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h2 {
+    margin: 2px;
+}
+h3 {
+    margin: 50px;
+    font-size: 30px;
+}
+p {
+    width: 190px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: center;
+
+}
+.roger {
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    padding: 16px;
+    margin: 0px 10px 0px 0px;
+}
+
+.texto {
+
+    text-align: left;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+.text {
+    width: 120px;
+    margin: 7px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.Bouton {
+    border: solid 2px rgba(128, 128, 128, 0.274);
+    padding: 15px 15px 15px 0px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    font-size: 20px;
+    transition-duration: 1s;
+
+}
+.Bouton:hover {
+transform: scale(1.35);
+background-color: rgb(240, 0, 0);
+}
+.BoutonS {
+    margin: 20px;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+
+}
+
+.bourdu {
+    
+   
+    padding: 5px;
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 5px 5px 5px #E2E2E2;
+}
+.img2 {
+    border-radius: 20px;
+    width: 300px;
+    height: 130px;
+    border: thin solid white;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 5px #E2E2E2;
+}
+.ticonteneur {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+   
+}
+.ticonteneur2 {
+    margin: 30px;
+    padding: 20px;
+    background-color:#F2F2F2 ;
+    border-radius: 20px;
+    justify-content: center;
+    display: block;
+    
+}
+.grandconteneur {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin: 30px;
+    
+}
+.positionnement {
+    transition-duration: 0.7s;
+    position: relative;
+    margin: 10px;
+}
+.positionnement:hover {
+    transform: scale(117%);
+    
+}
+.positionnement figcaption {
+    position: absolute;
+    bottom: 3px;
+    width: 251px;
+    left: 5px;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+.positionnement .side {
+    position: absolute;
+    bottom: 4px;
+    height: 142px;
+    width: 140px;
+    left: 167px;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+
+} 
+#style {
+    padding: 10px 80px 10px;
+    
+    margin-top: 30px;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-bottom: 30px;
+   
+
+}
+.Superconteneur {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+.image3 {
+    margin: 0px;
+    border-radius: 20px;
+    height: 500px;
+    width: 319px;
+    box-shadow: 5px 5px 10px #E2E2E2 ;
+  
+    }
+
+.image4 {
+    margin: 0px;
+border-radius: 20px;
+height: 280px;
+width: 319px;
+box-shadow: 5px 5px 10px #E2E2E2 ; 
+
+}
+.image5
+{
+    margin: 0px;
+    border-radius: 20px;
+    height: 200px;
+    width: 319px;
+    box-shadow: 5px 5px 10px #E2E2E2;
+}
+
+.placement2 {
+    position: relative;
+    margin: 10px 10px 20px 10px;
+    height: 280px;
+    width: 319px;
+    
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+.placement2:hover {
+    transform: scale(110%);
+}
+.placement3 {
+    position: relative;
+    margin: 10px 10px 10px;
+    height: 200px;
+    width: 319px;
+   
+    border: thin solid grey;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+
+.placement3:hover {
+    transform: scale(110%);
+}
+
+
+.placement {
+position: relative;
+border-radius: 20px;
+transition-duration: 0.5s; 
+height: 500px;
+width: 319px;
+margin: 10px;
+padding: 0px;
+
+
+}
+.placement:hover {
+    
+    transform: scale(110%);
+}
+.spacebutton {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.placement .mot {
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 319px;
+    height: 50px;
+    
+   
+
+}
+.placement2 .motard {
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 50px;
+    width: 319px;
+   
+}
+.placement3 .motrice {
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 50px;
+    width: 321px;
+    
+
+}
+
+
+.motus {
+    font-size: 17px;
+    text-align: center;
+
+
+}
+
+
+.bigconteneur {
+    
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.titisac {
+    display: block;
+    margin: 0px;
+   
+}
