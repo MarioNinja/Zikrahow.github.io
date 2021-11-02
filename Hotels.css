@@ -21,8 +21,8 @@ h3 {
 }
 p {
     width: 190px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 5px;
     margin-top: 5px;
     font-size: 15px;
@@ -50,14 +50,22 @@ p {
         
         
     }
+    h2 {
+        text-align: center;
+        margin: 15%;
+    }
+    h1 {
+        margin: 15%;
+        text-align: center;
+    }
     li {
         margin: 0px;
     }
 .rabbit {
     margin: 0px 0px 0px;    
     display: flex;
-    font-size: 30px;
-    color: rgba(66, 66, 228, 0.849);
+    font-size: 22px;
+    color: rgba(228, 85, 66, 0.849);
     justify-content: center;
     width: 50%;
     padding: 20px;
@@ -65,7 +73,7 @@ p {
 }
 .rabbit:hover {
     border-bottom: solid rgb(0, 119, 255) 7px;
-    border-radius: 7px;
+    border-radius: 5px;
 }
     #responsive {
        
@@ -119,7 +127,7 @@ li {
 }
 .Bouton:hover {
 transform: scale(115%);
-background-color: rgba(212, 45, 45, 0.39);
+background-color: rgba(158, 213, 238, 0.534);
 }
 .BoutonS {
     margin: 20px;
@@ -132,21 +140,23 @@ background-color: rgba(212, 45, 45, 0.39);
 .bourdu {
     
    
-    padding: 5px;
-    border-radius: 20px;
-    width: 250px;
-    height: 200px;
+   
+    border-radius: 20px 20px 0px 0px;
+    box-sizing: border-box; 
+    
+    width: 100%;
+    height: 133px;
     background-color: white;
-    box-shadow: 5px 5px 5px #E2E2E2;
+    
 }
-.img2 {
-    border-radius: 20px;
-    width: 300px;
-    height: 130px;
-    border: thin solid white;
-    padding: 5px;
-    background-color: white;
-    box-shadow: 5px 5px 5px #E2E2E2;
+.photage {
+    border-radius: 20px 0px 0px 20px;
+    box-sizing: border-box;
+    width: 170px;
+    height: 100%;
+   
+    
+    
 }
 .ticonteneur {
     justify-content: center;
@@ -174,27 +184,56 @@ background-color: rgba(212, 45, 45, 0.39);
 .positionnement {
     transition-duration: 0.7s;
     position: relative;
+    background-color: white;
+    border: solid white 5px;
     margin: 10px;
+    height: 200px;
+    width: 277px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 7px grey;
     
 }
 .positionnement:hover {
-    transform: scale(105%);
+    transform: scale(115%);
     
 }
 .positionnement figcaption {
+    justify-content: center;
     position: absolute;
-    bottom: 3px;
-    width: 250px;
-    left: 5px;
+    bottom: 0px;
+    
+    box-sizing: border-box;
+    width: 100%;
+    height: 33%;
+    left: 0px;
     background-color: white;
     border-radius: 0px 0px 20px 20px;
 }
-.positionnement .side {
+
+.makroute {
+    position: relative;
+    border: solid 5px white;
+    box-shadow: 2px 2px 5px grey; 
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+   
+}
+.makroute:hover {
+transform: scale(110%);
+}
+.makroute .side {
     position: absolute;
-    bottom: 4px;
-    height: 142px;
-    width: 140px;
-    left: 167px;
+   
+    height: 100%;
+    box-sizing: border-box;
+    width: 130px;
+    right: 0px;
+    bottom: 0px;
+    justify-content: center;
+    padding: 2px;
     background-color: white;
     border-radius: 0px 20px 20px 0px;
 
@@ -248,13 +287,13 @@ box-shadow: 5px 5px 10px #E2E2E2 ;
     position: relative;
     margin: 10px 10px 20px 10px;
     height: 280px;
-    width: 319px;
+    width: 319px;;
     
     border-radius: 20px;
     transition-duration: 0.5s;
 }
 .placement2:hover {
-    transform: scale(110%);
+    transform: scale(1.1);
 }
 .placement3 {
     position: relative;
@@ -264,7 +303,7 @@ box-shadow: 5px 5px 10px #E2E2E2 ;
    
     border: thin solid grey;
     border-radius: 20px;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .placement3:hover {
@@ -300,7 +339,8 @@ padding: 0px;
     position: absolute;
     bottom: 0px;
     right: 0px;
-    width: 319px;
+    box-sizing: content-box;
+    width: 100%;
     height: 50px;
     
    
